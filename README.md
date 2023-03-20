@@ -8,12 +8,17 @@
 
 ## Introduction
 
+The instructions for task#3 are contained in the [Module2 Project on Github](https://github.com/learn-co-curriculum/java-module2-project),
+and are repeated here as part of this project worktime lesson.
+
+
 Now that we have learned more about working with multiple classes,
 it is time to apply this new knowledge to our project!
 
 You will continue modifying the module project that you previously forked from
 [Module2 Project on Github](https://github.com/learn-co-curriculum/java-module2-project).
 
+## Task #3 - The `ConcertRepository` and `Driver` classes
 
 The `ConcertRepository` class encapsulates a collection of `Concert` objects
 and provides methods to add a new concert, get a concert by index, and find
