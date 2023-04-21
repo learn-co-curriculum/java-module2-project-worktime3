@@ -122,10 +122,10 @@ void displayNonEmpty() {
     concertService.addConcert("The Weeknd", 5000);
     concertService.displayConcerts();
     assertEquals("Added concert\n" +
-                 "Added concert\n" +
-                 "Concert{artist='Taylor Swift', available=100, waitlist=0}\n" +
-                 "Concert{artist='The Weeknd', available=5000, waitlist=0}",
-                 outputStreamCaptor.toString().trim());
+        "Added concert\n" +
+        "Concert{performer='Taylor Swift', available=100, waitlist=0}\n" +
+        "Concert{performer='The Weeknd', available=5000, waitlist=0}",
+        outputStreamCaptor.toString().trim());
 }
 ```
 
